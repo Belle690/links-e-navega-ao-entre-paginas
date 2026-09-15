@@ -1,0 +1,51 @@
+
+
+header {
+  background-color: #074c38;
+  padding: 15px 60px;
+}
+
+#menu-navegacao {
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+
+#logo {
+    color: #f2cf43;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+#links {
+    display: flex;
+    gap: 10px;
+
+}
+
+#links a {
+    background-color: #2f7d50;
+    color: beige;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#links a:first-child {
+    background-color: #f2cf43;
+    color: #074c38;
+}
+
+#destaque {
+    margin: 0;
+}
+
+#destaque a {
+    background-color: #2f7d50;
+    color: beige;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
