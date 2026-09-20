@@ -38,10 +38,6 @@ header {
     color: #074c38;
 }
 
-#destaque {
-    margin: 0;
-
-}
 
 #destaque a {
     background-color: #2f7d50;
@@ -49,6 +45,13 @@ header {
     padding: 8px 12px;
     text-decoration: none;
     border-radius: 5px;
+}
+
+#destaque img {
+    width: 600px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 #inicio {
@@ -79,6 +82,10 @@ header {
     color: beige;
     font-size: 40px;
     margin: 10px 0;
+}
+
+#inicio h2 em {
+    color: #f2cf43;
 }
 
 #inicio img {
@@ -123,6 +130,7 @@ header {
 #especial {
     background-color: beige;
     padding: 40px 60px;
+    margin: 0;
 }
 
 #especial h2 {
@@ -135,7 +143,7 @@ header {
 
 #cartoes {
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 #cartoes  article{
@@ -154,6 +162,7 @@ header {
     background-color: #7fbf72;
     padding: 30px;
     text-align: center;
+    margin: 0;
 }
 
 #personagens p {
@@ -203,12 +212,12 @@ footer a {
 }
 
 #cabecalho-personagens {
-    background-color: #123d35;
+    background-color: #7fbf72;
     padding: 35px 60px;
 }
 
 #cabecalho-personagens p {
-    color: #f2cf43;
+    color: #f1eee4;
 }
 
 #cabecalho-personagens h1 {
@@ -216,12 +225,12 @@ footer a {
     font-size: 40px;
 }
 
-#cabecalho-personagens em {
+ em {
     color: #f2cf43;
 }
 
 #lista-personagens {
-    background-color: #f1eee4;
+    background-color: antiquewhite;
     padding: 40px 60px;
 }
 
@@ -240,7 +249,7 @@ footer a {
 }
 
 .card {
-    background-color: beige;
+    background-color: #e5e8c4;
     width: 31%;
     padding: 10px;
     text-align: center;
@@ -266,4 +275,95 @@ footer a {
 
 .card small {
     color: #333333;
+}
+
+#cabecalho-curiosidades {
+   background-color: #7fbf72;
+   padding: 40px;
+   text-align: left;
+   color: beige;
+
+}
+
+#cabecalho-curiosidades h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+#cabecalho-curiosidades p {
+    margin: 10px 0;
+}
+
+cabecalho-curiosidades h1 em {
+    color: #f2cf43;
+}
+
+#curiosidade-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding: 60px;
+    background-color: #d8e9b3;
+    width: 90%;
+    margin: 20px auto;
+    min-height: 492px;
+}
+
+#curiosidade-principal img {
+    width: 450px;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#conteudo-curiosidades {
+    width: 55%;
+}
+
+#conteudo curiosidades h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+#conteudo-curiosidades article {
+   display: flex;
+   gap: 20px;
+   background-color: beige;
+   padding: 18px;
+   margin: 12px 0;
+   align-items: flex-start;
+   border-radius: 8px;
+}
+
+#conteudo-curiosidades article h2 {
+    font-size: 20px;
+    color: #074c38;
+}
+
+#conteudo-curiosidades  article h3 {
+    color: #2c7a5b;
+    font-size: 24px;
+    margin: 0;
+}
+
+#conteudo-curiosidades article p {
+    margin: 0;
+    font-size: 16px;
+}
+
+#conteudo-curiosidades article section {
+    flex: 1;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
