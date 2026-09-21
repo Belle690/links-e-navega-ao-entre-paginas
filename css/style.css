@@ -48,8 +48,8 @@ header {
 }
 
 #destaque img {
-    width: 600px;
-    height: 240px;
+    width: 55%;
+    height: 250px;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -89,8 +89,8 @@ header {
 }
 
 #inicio img {
-    width: 45%;
-    height: 250px;
+    width: 900px;
+    height: 400px;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -129,7 +129,7 @@ header {
 
 #especial {
     background-color: beige;
-    padding: 40px 60px;
+    padding: 60px 60px;
     margin: 0;
 }
 
@@ -148,7 +148,7 @@ header {
 
 #cartoes  article{
  background-color: #d8e9b3;
- padding: 25px;
+ padding: 45px;
  width: 33%;
  text-align: center;
  border-radius: 10px;
@@ -158,35 +158,43 @@ header {
     color: #074c38;
 }
 
-#personagens {
+#destaque {
     background-color: #7fbf72;
-    padding: 30px;
+    padding: 35px;
     text-align: center;
     margin: 0;
 }
 
-#personagens p {
+#destaque p {
     color: #f2cf43;
 }
 
-#personagens h2 {
+#destaque h2 {
 color: bisque;
  }
 
- #personagens a {
+ #destaque a {
     background-color: #f2cf43;
     color: #074c38;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;
  }
-
+ 
+ header p a {
+    background-color: #f2cf43;
+    color: #074c38;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+ }
  footer {
     background-color: #074c38;
-    padding: 20px 60px;
+    padding: 20px ;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 85px;
  }
 
  footer p {
@@ -279,7 +287,7 @@ footer a {
 
 #cabecalho-curiosidades {
    background-color: #7fbf72;
-   padding: 40px;
+   padding: 60px;
    text-align: left;
    color: beige;
 
@@ -294,7 +302,7 @@ footer a {
     margin: 10px 0;
 }
 
-cabecalho-curiosidades h1 em {
+#cabecalho-curiosidades h1 em {
     color: #f2cf43;
 }
 
@@ -302,26 +310,25 @@ cabecalho-curiosidades h1 em {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 45px;
-    padding: 60px;
+    gap: 35px;
+    padding: 30px 30px 60px 30px;
     background-color: #d8e9b3;
     width: 90%;
-    margin: 20px auto;
-    min-height: 492px;
+    margin: 20px auto 0;
 }
 
 #curiosidade-principal img {
-    width: 450px;
-    height: 430px;
+    width: 600px;
+    height: 500px;
     object-fit: cover;
     border-radius: 20px;
 }
 
 #conteudo-curiosidades {
-    width: 55%;
+    width: 50%;
 }
 
-#conteudo curiosidades h2 {
+#conteudo-curiosidades h2 {
     font-size: 30px;
     margin: 10px 0;
 }
@@ -330,7 +337,7 @@ cabecalho-curiosidades h1 em {
    display: flex;
    gap: 20px;
    background-color: beige;
-   padding: 18px;
+   padding: 20px;
    margin: 12px 0;
    align-items: flex-start;
    border-radius: 8px;
@@ -343,27 +350,24 @@ cabecalho-curiosidades h1 em {
 
 #conteudo-curiosidades  article h3 {
     color: #2c7a5b;
-    font-size: 24px;
+    font-size: 28px;
     margin: 0;
 }
 
 #conteudo-curiosidades article p {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #conteudo-curiosidades article section {
     flex: 1;
+    padding: 15px;
 }
 
 body {
     background-color: antiquewhite;
     margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    height: 1000px;
 }
 
-main {
-    flex: 1;
-}
+
