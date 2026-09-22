@@ -5,7 +5,7 @@
 
 header {
   background-color: #074c38;
-  padding: 15px 60px;
+  padding: 15px;
 }
 
 #menu-navegacao {
@@ -31,7 +31,7 @@ header {
 #links a {
     background-color: #2f7d50;
     color: beige;
-    padding: 8px 12px;
+    padding: 8px;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -45,7 +45,7 @@ header {
 #destaque a {
     background-color: #2f7d50;
     color: beige;
-    padding: 8px 12px;
+    padding: 10px;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -59,7 +59,7 @@ header {
 
 #inicio {
  background-color: #7fbf72;
- padding: 40px 60px;
+ padding: 40px;
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -101,7 +101,7 @@ header {
 #inicio article a {
     background-color: #f2cf43;
     color: #074c38;
-    padding: 10px 15px;
+    padding: 10px;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
@@ -112,7 +112,7 @@ header {
 #inicio a {
     background-color: #2f7d50;
     color: beige;
-    padding: 8px 12px;
+    padding: 8px;
     text-decoration: none;
     border-radius: 5px;
     margin: 5px;
@@ -132,7 +132,7 @@ header {
 
 #especial {
     background-color: beige;
-    padding: 60px 60px;
+    padding: 60px;
     margin: 0;
 }
 
@@ -179,7 +179,7 @@ color: bisque;
  #destaque a {
     background-color: #f2cf43;
     color: #074c38;
-    padding: 10px 15px;
+    padding: 10px;
     text-decoration: none;
     border-radius: 5px;
  }
@@ -187,7 +187,7 @@ color: bisque;
  header p a {
     background-color: #f2cf43;
     color: #074c38;
-    padding: 8px 12px;
+    padding: 8px;
     text-decoration: none;
     border-radius: 5px;
  }
@@ -207,7 +207,7 @@ color: bisque;
 footer a {
     background-color: #f2cf43;
     color: #074c38;
-    padding: 8px 12px;
+    padding: 8px;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -243,7 +243,7 @@ footer a {
 
 #lista-personagens {
     background-color: antiquewhite;
-    padding: 40px 60px;
+    padding: 40px;
 }
 
 #lista-personagens > p {
