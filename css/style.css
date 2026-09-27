@@ -2,7 +2,7 @@
 
 header {
   background-color: #074c38;
-  padding: 15px 60px;
+  padding: 15px;
 }
 
 #menu-navegacao {
@@ -301,8 +301,9 @@ footer a {
     gap: 35px;
     padding: 30px;
     background-color: #d8e9b3;
-    width: 80%;
-    margin: 0;
+    width: 90%;
+    margin: 55px;
+    border-radius: 15px;
 }
 
 #curiosidade-principal img {
@@ -334,6 +335,7 @@ footer a {
 #conteudo-curiosidades article h2 {
     font-size: 20px;
     color: #074c38;
+    margin: 0;
 }
 
 #conteudo-curiosidades  article h3 {
@@ -354,6 +356,9 @@ footer a {
 
 #rodape-curiosidade {
     margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 body {
